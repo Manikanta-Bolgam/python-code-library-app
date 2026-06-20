@@ -43,7 +43,7 @@ services:
       - db
 
   frontend:
-    image: mani0908/pyapp:frontend
+    image: mani0908/pyapp:frontend_image
     deploy:
       replicas: 1
     ports:
